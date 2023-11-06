@@ -1,0 +1,86 @@
+#None{
+    color: black;
+    text-decoration: none;
+}
+.pacify{
+    font-style:italic;
+    font-family: Pacifico;
+        src: url("/petals/Font/Pacifico.ttf");
+}
+
+.crayon{
+    font-family: Crayon Kids;
+        src: url("/petals/Font/Crayon\ Kids.otf");
+}
+
+header{
+    background-color: rgb(147, 140, 140);
+    height: 50px;
+    width: 100%;
+}
+.left{
+    float: left;
+    width: 31%;
+}
+.right{
+    float: right;
+    width: 35%
+}
+#site-search{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.spacing{
+    letter-spacing : 1px ; 
+    }
+
+
+.mots{
+    word-spacing: 50px;
+}
+
+.couleur{
+    color: black;
+}
+
+div.bordure {
+    border-bottom:1px solid rgb(0, 0, 0);
+    }
+    img{
+        width: 200px;
+        height: 145px;
+        padding: 15px;
+    }
+    
+    .flex{
+        
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 200px;
+        margin: auto;;
+        text-align: center;
+        padding: 15px;
+        margin:0px;
+      }
+
+      .conteneur {
+        border: 1px solid #00000000; /* Définit une bordure de 1 pixel solide */
+        padding: 10px; /* Ajoute 10 pixels d'espace entre le texte et la bordure */
+      }
+      .bas-de-page {
+        background-color: #ccc; /* Couleur de fond grise */
+        padding: 20px; /* Espace intérieur pour le bas de page */
+        text-align: center; /* Centre le contenu du bas de page horizontalement */
+        color: #fff; /* Couleur du texte dans le bas de page (blanc dans cet exemple) */
+      }
+
+      .team-member {
+        display: inline-block;
+        margin: 20px;
+    }
+    .team-member img {
+        max-width: 200px;
+        border-radius: 50%;
+        border: 5px solid #fff;
+    }
